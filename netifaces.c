@@ -4,7 +4,6 @@
 
 #define IS_PY3K
 
-// call this PyText_FromUTF8
 #  define PyText_FromUTF8 PyUnicode_FromString
 #  define PyInt_FromLong PyLong_FromLong
 
@@ -14,8 +13,6 @@
 // obviously, PyInt_FromLong is PyInt_FromLong
 
 #endif
-
-// PyInt_FromLong doesn't exist in Py3k.  Could just #def it.
 
 #ifndef WIN32
 

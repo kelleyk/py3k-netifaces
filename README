@@ -1,3 +1,6 @@
+(Python 3.x compatibility added by Kevin Kelley <kelleyk@kelleyk.net>.
+The functionality of the module should remain unchanged.)
+
 netifaces 0.4
 =============
 

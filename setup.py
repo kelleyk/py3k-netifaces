@@ -407,6 +407,9 @@ setup (name='netifaces',
        description="Portable network interface information.",
        license="MIT License",
        long_description="""\
+(Python 3.x compatibility added by Kevin Kelley <kelleyk@kelleyk.net>.
+The functionality of the module should remain unchanged.)
+
 netifaces provides a (hopefully portable-ish) way for Python programmers to
 get access to a list of the network interfaces on the local machine, and to
 obtain the addresses of those network interfaces.
@@ -422,9 +425,14 @@ data provided by the socket options is normally less complete.
        author_email='alastair@alastairs-place.net',
        url='http://alastairs-place.net/netifaces',
        classifiers=[
-    'Development Status :: 4 - Beta',
-    'Intended Audience :: Developers',
-    'License :: OSI Approved :: MIT License',
-    'Topic :: System :: Networking',
-    ],
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Topic :: System :: Networking',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.2',
+        ],
        ext_modules=[iface_mod])

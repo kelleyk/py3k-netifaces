@@ -1,3 +1,6 @@
+(Note that the author of `netifaces` has long since added his own Python 3 support, and you should NOT use this old
+fork.)
+
 (Python 3.x compatibility added by Kevin Kelley <kelleyk@kelleyk.net>.
 The functionality of the module should remain unchanged.)
 
